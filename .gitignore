@@ -1,0 +1,24 @@
+# Environnement conda/venv
+venv/
+.env
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dataset (trop lourd + droits Kaggle)
+data/
+*.csv
+
+# VSCode (paramètres locaux à ta machine)
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
